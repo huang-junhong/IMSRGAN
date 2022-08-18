@@ -11,7 +11,7 @@ we provide 5 per-trained model for fast test, you can download in [Google cloud]
 * IMSRGAN_RRDB_MS.pth    this model use RRDB as generator, witch result in paper table-III Multi Shape
 
 Before Test
-* you should pip install cv2 and [lpips]()
+* you should pip install cv2 and [lpips](https://github.com/richzhang/PerceptualSimilarity)
 * Download our pre-trained model
 * vi IMSRGAN_Test.py to change folder address, the default path is absolute address you should change by yourself.
 * run IMSRGAN_Test.py
